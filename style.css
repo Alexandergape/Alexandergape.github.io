@@ -1,0 +1,55 @@
+body {
+  /* this one doesn't fill all the page with the gradient */
+
+  /* background: linear-gradient(
+    to top right,
+    rgba(90, 59, 3, 0.9),
+    rgba(90, 59, 3, 0.1)
+  ); */
+
+  background: -webkit-gradient(
+      linear,
+      left top,
+      left bottom,
+      from(rgba(90, 59, 3, 0.9)),
+      to(rgba(90, 59, 3, 0.1))
+    )
+    fixed;
+  /* background-size: cover;
+  background-repeat: repeat-x; */
+}
+
+.container {
+  position: relative;
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.gradient {
+  background: linear-gradient(to left, rgb(158, 19, 19), rgb(216, 201, 201));
+  -webkit-background-clip: text;
+  /* background-clip: white; */
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+}
+
+h1 {
+  background: linear-gradient(to left, rgb(117, 243, 123), rgb(138, 189, 211));
+  -webkit-background-clip: text;
+  /* background-clip: white; */
+  -webkit-text-fill-color: transparent;
+  text-align: justify;
+}
