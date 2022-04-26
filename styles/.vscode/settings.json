@@ -1,0 +1,28 @@
+{
+    "compile-hero": {
+        // "disable-compile-files-on-did-save-code": false,
+        // "notification-toggle": false,
+        // "javascript-output-directory": "./out",
+        // "javascript-output-toggle": false,
+        "sass-output-directory": "./", //"./out",
+        "scss-output-directory": "./", //"./out",
+        // "sass-output-toggle": true,
+        // "ignore": [
+        //     "src/test.js",
+        //     "*/test.scss",
+        //     "**/spec/*",
+        //     "**/src/**/*"
+        // ],
+        "watch": [
+            // "sass/test.sass",
+            // "**/less/**/*"
+            "styles/styles.scss"
+        ]
+    }
+}
+// {
+//     "compilerOptions": {
+//         "rootDir": "./src",
+//         "outDir": "./dist"
+//     }
+// }
